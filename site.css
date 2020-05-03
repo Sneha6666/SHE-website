@@ -1,0 +1,32 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+.color-overlay{
+	width: 100%;
+	height: 400px;
+	background: #E3248B;
+	opacity: .7;
+	position: absolute;
+}
+.acti{
+	background:  #E3248B url('https://previews.123rf.com/images/magicxeon/magicxeon1510/magicxeon151000016/47769082-business-abstract-blue-background-look-like-various-high-pillars-make-feeling-to-glowing-up-competit.jpg');
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-size: 100%;
+ position: relative;
+}
+h1{
+	color: white;
+	font-family: 'pacifico', cursive;
+	font-size: 42px;
+	padding-left: 100px;
+	padding-right: 50px;
+	padding-top: 100px;
+    font-weight: 200px;
+    z-index: 1;
+}

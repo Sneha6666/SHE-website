@@ -1,0 +1,18 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+.back{
+	background: url('https://static1.squarespace.com/static/57fe4b4ef7e0abf421a09524/57fe4c255a655bca64720853/5a0bf071ec212dec2b34d681/1510732153866/462869357.jpg?format=1500w');
+	background-size: cover;
+	width: 100%;
+	padding-bottom: 150px;
+	background-position: center;
+
+}
+.ho{
+	padding-top: 40px;
+}

@@ -1,0 +1,106 @@
+<html>
+<head>
+    <title>Feedback</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="test.css" rel="stylesheet" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootsrap/3.3.7/css/bootsrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootsrap/3.3.7/js/bootsrap.min.js"></script>
+</head>
+<body>
+   <div class="ho"><a href="index.html" style="color: yellow; font-size: 20px; text-decoration: underline; margin-left: 1100px;">HOME</a></div>
+    <section class="testimonials">
+    <div class="container">
+        <h1 >Testimonials</h1>
+    
+        
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <div class="profile">
+                    <img src="7.jpg" class="user">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero incidunt quod voluptatum magnam exercitationem voluptates ex cum fugiat! Nobis ratione tenetur ullam vero nihil, beatae harum cupiditate fugit mollitia.</p>
+                    <h3>name  <span>founder</span></h3>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="profile">
+                    <img src="s.jpg" class="user">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero incidunt quod voluptatum magnam exercitationem voluptates ex cum fugiat! Nobis ratione tenetur ullam vero nihil, beatae harum cupiditate fugit mollitia.</p>
+                    <h3>name  <span>founder</span></h3>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="profile">
+                    <img src="1.jpg" class="user">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero incidunt quod voluptatum magnam exercitationem voluptates ex cum fugiat! Nobis ratione tenetur ullam vero nihil, beatae harum cupiditate fugit mollitia.</p>
+                    <h3>name  <span>founder</span></h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </section>
+<section >
+    <div class="element">
+<img id="myBtn" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSDZcfROiAUuneIO9UBUhKtggN1DaRDOOfOuvAjx-2tJCnBq5M3" width="100" height="100">
+</div>
+<div id="myModal" class="modal">
+  <div class="modal-content" style="width: 750px;">
+    <div class="modal-header">
+     
+      <h4 style="font-family: 'pacifico', cursive; font-size: 30px; padding-bottom: 20px;padding-top: 20px; font-weight: bold;margin-left:150px; ">Your Feedback Is Valuable</h4>
+       <span class="close" style=" color: white; cursor: pointer;float: right;font-size: 28px;font-weight: bold;">x</span>
+    </div>
+    <div class="modal-body" >
+      <p>  <form action="test.html">
+    <input type="text" id="fname" name="firstname" placeholder="Enter your name" style=" margin-bottom: 10px;padding-top: 10px;padding-bottom: 10px;margin-left: 40px; padding-right: 120px;" required>
+
+    <input type="email" id="lname" name="lastname" placeholder="email" style=" margin-bottom: 10px;margin-left: 75px; padding-top: 10px;padding-bottom: 10px; padding-right: 120px;" required>
+
+    <label for="feedback" style="font-size: 20px; margin-left: 40px;">Feedback</label>
+ <br>
+    <textarea name="feedback" style="width:90%; margin-left: 40px; margin-top: 10px;" rows="4">
+ </textarea>
+  <br><br>
+    <input type="submit" value="Submit" style="padding-top: 10px; padding-bottom: 10px; margin-left: 45%; padding-left: 30px; padding-right: 30px;" class="contact-form-btn">
+  </form></p>
+    </div>
+    <div class="modal-footer">
+ <h3 style="color: white; text-align: center;font-family: 'pacifico', cursive; padding-right: 180px;">Thankyou for your feedback</h3>
+    </div>
+  </div>
+
+</div>
+
+<script>
+var modal = document.getElementById('myModal');
+
+
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</section>
+</body>
+</html>

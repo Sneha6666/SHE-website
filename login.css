@@ -1,0 +1,93 @@
+body
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #fff;
+	background: url('https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1346&q=80') no-repeat center center fixed;
+	background-size: cover;
+}
+.ho{
+	padding-top: 40px;
+}
+.signin{
+	background: rgb(44,62,80,0.7);
+	padding: 40px;
+	width: 22%;
+	margin:0 auto;
+	margin-top: 160px;
+	height: 400px;
+
+
+}
+form{
+	width: 100%;
+	text-align: center;
+}
+input
+{
+	width: 95%;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-family: 'play', sans-serif;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	outline: none;
+	color: #fff;
+}
+input[type=submit]{
+	border: none;
+	width: 75%;
+	background: white;
+	color: #000;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px 0;
+	border-radius: 15px;
+	cursor: pointer;
+}
+input[type=submit]:hover{
+	color: #fff;
+	background-color: black;
+}
+h1{
+	color: white;
+}
+a{
+	color: yellow;
+	text-decoration: blink;
+}
+a:hover{
+	color: skyblue;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+::placeholder{
+	color: aliceblue;
+	opacity: 0.8;
+}
+
+@media only screen and (max-width: 948px) {
+	.signin{
+	width: 30%;}
+}
+@media only screen and (max-width: 768px) {
+	.signin{
+	width: 40%;}
+}
+@media only screen and (max-width: 495px) {
+	.signin{
+	width: 45%;
+margin-top: 50px;}
+}
+@media only screen and (max-width: 480px) {
+	.signin{
+	width: 70%;
+margin-top: 50px;}
+}
+
